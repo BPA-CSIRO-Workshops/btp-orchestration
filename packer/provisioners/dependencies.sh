@@ -5,7 +5,7 @@ apt-get update
 ###################
 ## Miscellaneous ##
 ###################
-packages=(wget curl vim screen zip unzip)
+packages=(wget curl vim screen zip unzip libtcl8.5 libtk8.5 zlib1g-dev)
 apt-get install -y ${packages[@]} && apt-get clean
 ####################
 
